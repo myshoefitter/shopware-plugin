@@ -1,0 +1,40 @@
+{
+  "name": "myshoefitter/shopware6-plugin",
+  "description": "Integrates MyShoeFitter script into Shopware 6 store",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Your Name",
+          "email": "your.email@example.com"
+      }
+  ],
+  "require": {
+      "shopware/core": ">=6.0.0"
+  },
+  "extra": {
+      "shopware-plugin-class": "MyShoeFitter\\MyShoeFitter",
+      "label": {
+          "en-GB": "MyShoeFitter Integration",
+          "de-DE": "MyShoeFitter Integration"
+      },
+      "description": {
+          "en-GB": "Integrates MyShoeFitter sizing script into your Shopware 6 store",
+          "de-DE": "Integriert MyShoeFitter-Größenskript in Ihren Shopware 6-Shop"
+      },
+      "manufacturerLink": {
+          "en-GB": "https://www.myshoefitter.com",
+          "de-DE": "https://www.myshoefitter.com"
+      },
+      "supportLink": {
+          "en-GB": "https://www.myshoefitter.com/support",
+          "de-DE": "https://www.myshoefitter.com/support"
+      }
+  },
+  "autoload": {
+      "psr-4": {
+          "MyShoeFitter\\": "src/"
+      }
+  }
+}

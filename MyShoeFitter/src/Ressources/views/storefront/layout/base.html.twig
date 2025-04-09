@@ -1,0 +1,17 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_body_inner %}
+    {{ parent() }}
+    
+    {% if myshoefitter is defined and myshoefitter %}
+        <!-- Load the Script -->
+        <script src="{{ myshoefitter.scriptUrl }}"></script>
+        
+        <!-- Initialize the Script -->
+        <script type="application/javascript">
+            myshoefitter.init({
+                shopSystem: '{{ myshoefitter.shopSystem }}',
+            });
+        </script>
+    {% endif %}
+{% endblock %}

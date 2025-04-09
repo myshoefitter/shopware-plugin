@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    
+    <card>
+        <title>mySHOEFITTER</title>
+        <title lang="de-DE">mySHOEFITTER</title>
+
+        <input-field>
+            <name>enabled</name>
+            <label>Enable mySHOEFITTER</label>
+            <label lang="de-DE">mySHOEFITTER aktivieren</label>
+            <defaultValue>true</defaultValue>
+            <helpText>Enable or disable the mySHOEFITTER script injection</helpText>
+            <helpText lang="de-DE">Aktivieren oder deaktivieren Sie die mySHOEFITTER-Skripteinbindung</helpText>
+        </input-field>
+
+        <input-field>
+            <name>scriptUrl</name>
+            <label>Script URL</label>
+            <label lang="de-DE">Skript-URL</label>
+            <defaultValue>https://js.myshoefitter.com/v1/script.js</defaultValue>
+            <helpText>URL to the mySHOEFITTER Script</helpText>
+            <helpText lang="de-DE">URL zum mySHOEFITTER-Skript</helpText>
+        </input-field>
+    </card>
+</config>

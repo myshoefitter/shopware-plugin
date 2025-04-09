@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>mySHOEFITTER</label>
+    <label lang="de">mySHOEFITTER</label>
+    <version>1.0.0</version>
+    <copyright>mySHOEFITTER GmbH</copyright>
+    <license>MIT</license>
+    <link>https://www.myshoefitter.com</link>
+    <author>mySHOEFITTER GmbH</author>
+    <compatibility minVersion="5.2.0" />
+
+    <description>
+        Integrates MyShoeFitter sizing script into your Shopware 5 store
+    </description>
+    <description lang="de">
+        Integriert MyShoeFitter-Größenskript in Ihren Shopware 5-Shop
+    </description>
+
+    <changelog version="1.0.0">
+        <changes lang="en">Initial release</changes>
+        <changes lang="de">Erstveröffentlichung</changes>
+    </changelog>
+</plugin>
