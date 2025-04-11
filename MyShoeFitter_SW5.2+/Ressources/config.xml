@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.7/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="checkbox">
+            <name>enabled</name>
+            <label>Enable MyShoeFitter</label>
+            <value>true</value>
+        </element>
+        <element type="text">
+            <name>scriptUrl</name>
+            <label>Script URL</label>
+            <value>https://js.myshoefitter.com/v1/script.js</value>
+        </element>
+    </elements>
+</config>
